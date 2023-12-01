@@ -13,7 +13,7 @@ export const getDate = (time: string): string => {
   return formattedDate;
 };
 
-// // отримую поточну дату та час в форматі  '09:41'
+// отримую поточну дату та час в форматі  '09:41'
 
 export const getTime = (time: string): string => {
   const date = new Date(time);
