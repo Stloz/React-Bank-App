@@ -1,6 +1,5 @@
 .form__item {
 	position: relative;
-
 }
 
 .input {
@@ -21,9 +20,6 @@
 	&--error:focus {
 		border: 1px solid red;
 	}
-
-
-
 }
 
 .label {
@@ -38,11 +34,6 @@
 input::placeholder {
 	color: #908e91;
 }
-
-/* input:focus {
-  border-color: #775ce5;
-} */
-
 
 input:focus {
 	border-color: #775ce5;
