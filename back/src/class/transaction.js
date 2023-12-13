@@ -5,7 +5,7 @@ class Transactions {
   static #list = []
   static #count = 1
 
-  //функция которая создает  все данные для транзакции
+  //функция которая создает все данные для транзакции
   static createTransaction = ({
     date,
     userId,
